@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>report3</title>
+</head>
+<body>
+<h3>[1] 2진수 16진수 변환</h3>
+<hr>
+<script>
+    var num = prompt("2진수를 입력하세요.");
+
+    if (isFinite(num)){
+        var result = parseInt(num, 2).toString(16).toUpperCase()
+        document.write("2진수: " + num + " → 16진수: " + result + "<br>")
+    }
+    else
+        document.write("2진수 값을 다시 입력하세요." + "<br>")
+</script>
+
+<h3>[2] 파스칼의 삼각형</h3>
+<hr>
+<script>
+    var height = prompt("파스칼의 삼각형의 높이:")
+    height = parseInt(height)
+
+    var new_row = function(prev_row) {
+    var row = [];
+
+    row.push(1);
+
+    for (var i = 1; i <= prev_row; i++) {
+        for (var j = row.length - 1; j > 0; j--) {
+            row[j] = row[j - 1] + row[j];
+        }
+        row.push(1);
+    }
+
+    return row;
+    };
+
+    for(var l=0; l<height; l++) {
+        var n = new_row(l);
+        for (var a=0; a<=l; a++)
+            document.write(n[a]+" ")
+            document.write("<br>")
+    }
+</script>
+</body>
+</html>
