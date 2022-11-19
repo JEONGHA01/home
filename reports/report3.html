@@ -15,14 +15,14 @@
         document.write("2진수: " + num + " → 16진수: " + result + "<br>")
     }
     else
-        document.write("2진수 값을 다시 입력하세요." + "<br>")
+        document.write("2진수 값을 다시 입력하세요." + "<br>") ;
 </script>
 
 <h3>[2] 파스칼의 삼각형</h3>
 <hr>
 <script>
-    var height = prompt("파스칼의 삼각형의 높이:")
-    height = parseInt(height)
+    var height = prompt("파스칼의 삼각형의 높이:") ;
+    height = parseInt(height) ;
 
     var new_row = function(prev_row) {
     var row = [];
@@ -42,8 +42,8 @@
     for(var l=0; l<height; l++) {
         var n = new_row(l);
         for (var a=0; a<=l; a++)
-            document.write(n[a]+" ")
-            document.write("<br>")
+            document.write(n[a]+" ") ;
+            document.write("<br>") ;
     }
 </script>
 </body>
