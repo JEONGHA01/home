@@ -829,7 +829,7 @@ section {
 --------------------------------------------------------------*/
 .services .icon-box {
   text-align: center;
-  padding: 70px 20px 80px 20px;
+  padding: 40px 5px 50px 5px;
   transition: all ease-in-out 0.3s;
   background: #fff;
   box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
@@ -880,76 +880,53 @@ section {
   margin-bottom: 0;
 }
 
-.services .iconbox-blue i {
-  color: #47aeff;
+
+.services .iconbox-g1 i {
+  color: #01A9DB;
 }
 
-.services .iconbox-blue:hover .icon i {
+.services .iconbox-g1:hover .icon i {
   color: #fff;
 }
 
-.services .iconbox-blue:hover .icon path {
-  fill: #47aeff;
+.services .iconbox-g1:hover .icon path {
+  fill: #01A9DB;
 }
 
-.services .iconbox-orange i {
-  color: #ffa76e;
+.services .iconbox-g2 i {
+  color: #01DFD7;
 }
 
-.services .iconbox-orange:hover .icon i {
+.services .iconbox-g2:hover .icon i {
   color: #fff;
 }
 
-.services .iconbox-orange:hover .icon path {
-  fill: #ffa76e;
+.services .iconbox-g2:hover .icon path {
+  fill: #01DFD7;
 }
 
-.services .iconbox-pink i {
-  color: #e80368;
+.services .iconbox-g3 i {
+  color: #01DFA5;
 }
 
-.services .iconbox-pink:hover .icon i {
+.services .iconbox-g3:hover .icon i {
   color: #fff;
 }
 
-.services .iconbox-pink:hover .icon path {
-  fill: #e80368;
+.services .iconbox-g3:hover .icon path {
+  fill: #01DFA5;
 }
 
-.services .iconbox-yellow i {
-  color: #ffbb2c;
+.services .iconbox-g4 i {
+  color: #01DF3A;
 }
 
-.services .iconbox-yellow:hover .icon i {
+.services .iconbox-g3:hover .icon i {
   color: #fff;
 }
 
-.services .iconbox-yellow:hover .icon path {
-  fill: #ffbb2c;
-}
-
-.services .iconbox-red i {
-  color: #ff5828;
-}
-
-.services .iconbox-red:hover .icon i {
-  color: #fff;
-}
-
-.services .iconbox-red:hover .icon path {
-  fill: #ff5828;
-}
-
-.services .iconbox-teal i {
-  color: #11dbcf;
-}
-
-.services .iconbox-teal:hover .icon i {
-  color: #fff;
-}
-
-.services .iconbox-teal:hover .icon path {
-  fill: #11dbcf;
+.services .iconbox-g4:hover .icon path {
+  fill: #01DF3A;
 }
 
 /*--------------------------------------------------------------
